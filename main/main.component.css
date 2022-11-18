@@ -1,0 +1,43 @@
+.text{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    color:#000000;
+
+}
+
+
+.blog-content{
+    text-align: left;
+    color: #9C9C9C;
+}
+
+.hero-txt{
+margin-left:30% !important;
+margin-right:30% !important;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+@media only screen and (max-width: 767px){
+    .hero-txt{
+        margin-left:8% !important;
+        margin-right:8% !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .hero-txt{
+        margin-left:15% !important;
+        margin-right:15% !important;
+    }
+}
